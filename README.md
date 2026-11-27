@@ -1,15 +1,52 @@
+<div align="center">
+
 # Wohlig Visual Library
 
-Images, icons, backgrounds and brand assets for **Wohlig presentations, documents and web pages**, in the
-**Wohlig Earthy Brand System 2026**: deep maroon `#800D35`, terracotta `#C85F44`, sunset orange `#F7781D`,
-warm ivory `#FFF7E9`, earthen beige `#EAD9C2`, muted olive `#76775A`, with brass accents.
+**399 earthy papercraft images, icons, backgrounds and brand assets for Wohlig presentations, documents and web pages.**
 
-Almost everything here was made with **Codex** image generation in a tactile papercraft and clay style.
-Some was made fresh for this library; the rest was gathered from earlier Codex work that already fits the
-earthy theme.
+### [Browse the gallery](https://wohlig.github.io/wohlig-visual-library/)
 
-Open **`index.html`** in a browser to browse, search and filter everything. Click an image to see its
-path, size and the prompt that made it.
+Search, filter by folder, click any image for its path, size and the prompt that made it.
+
+<a href="https://wohlig.github.io/wohlig-visual-library/"><img src="thumbs/heroes__arch-tunnel-ivory.jpg" width="31%"> <img src="thumbs/heroes__cloud-sunset-layers.jpg" width="31%"> <img src="thumbs/heroes__orange-flower-glow.jpg" width="31%"></a>
+<br>
+<a href="https://wohlig.github.io/wohlig-visual-library/"><img src="thumbs/illustrations__industry-banking.jpg" width="31%"> <img src="thumbs/illustrations__rope-bridge.jpg" width="31%"> <img src="thumbs/heroes__shield-check-terracotta.jpg" width="31%"></a>
+<br>
+<a href="https://wohlig.github.io/wohlig-visual-library/"><img src="thumbs/icons__sliced__tile-report-pie.png" width="12%"> <img src="thumbs/icons__sliced__tile-stopwatch.png" width="12%"> <img src="thumbs/icons__sliced__tile-blueprint.png" width="12%"></a>
+
+</div>
+
+## Quick start
+
+1. **Browse:** open the [gallery](https://wohlig.github.io/wohlig-visual-library/), find an image, copy its path.
+2. **Get the files:**
+   ```bash
+   git clone https://github.com/wohlig/wohlig-visual-library.git
+   git -C wohlig-visual-library pull    # later, to pick up new art
+   ```
+   Or open an image in the gallery and use *Open full size* to download just that one.
+3. **Use it:** drop it into your deck, doc or page. For Claude Slides decks, the `wohlig-claude-slides`
+   skill (in the [`wohlig-presentations`](https://github.com/wohlig/wohlig-claude-plugins) plugin) reads
+   this library for you.
+
+Brand colours: deep maroon `#800D35`, terracotta `#C85F44`, sunset orange `#F7781D`, warm ivory `#FFF7E9`,
+earthen beige `#EAD9C2`, muted olive `#76775A`, with brass accents. Almost everything was made with
+**Codex** image generation in a tactile papercraft and clay style.
+
+| Folder | Images |
+| --- | --- |
+| `icons/` (+ `icons/sliced/`) | 109 |
+| `illustrations/` | 86 |
+| `heroes/` | 63 |
+| `photography/` | 39 |
+| `backgrounds/` | 37 |
+| `objects/` | 16 |
+| `client-logos/` | 12 |
+| `icon-sets/` | 11 |
+| `brand/` | 8 |
+| `ui-mockups/` | 7 |
+| `motifs/` | 6 |
+| `slide-bookends/` | 5 |
 
 ## Folders
 
